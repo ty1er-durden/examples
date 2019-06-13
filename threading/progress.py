@@ -27,7 +27,7 @@ def download_with_progress(fn, *args, update_frequency=1):
 
 def download(*args):
     """ Placeholder function for actual code to perform the download"""
-    logger.info(f"Simulating download to location '{args[0]}''")
+    logger.info(f"Simulating download to location '{args[0]}'")
     time.sleep(10)
 
 
