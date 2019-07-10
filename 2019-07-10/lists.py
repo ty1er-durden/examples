@@ -1,6 +1,6 @@
-# List of Python team members:
+# List of Python Club 'staff' members:
 staff = ["Stuart", "Craig", "Yomi"]
-# Who is in the team?
+# Who is in the staff?
 print("Staff: ", staff)
 # What type of object is 'staff'?
 print(" Type: ", type(staff).__name__)
@@ -13,7 +13,7 @@ staff.append("Mahoosif Dufus")
 print("Staff: ", staff)
 print("")
 
-# What can I do to my list?
+# What else can I do to my list?
 print("AVAILABLE ATTRIBUTES ON 'staff' LIST:")
 for a in dir(staff):
     if not a.startswith("__"):
